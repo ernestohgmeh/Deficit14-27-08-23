@@ -1,0 +1,24 @@
+En el día de ayer 24 de agosto no se afectó el servicio eléctrico
+ por déficit de capacidad de generación.
+
+La disponibilidad del SEN a las 07:00 horas es de 2411 MW y la demanda 2320 MW,
+ con todo el sistema con servicio. No se estima afectación al servicio 
+ eléctrico por déficit de capacidad de generación en la media.
+
+Se encuentra fuera de servicio en avería la unidad 5 de la CTE Mariel y la unidad 5
+ de la CTE Nuevitas. Se encuentran en mantenimiento la unidad 1 de la CTE Guiteras
+  y la unidad 6 de la CTE Renté.
+
+Se mantienen las limitaciones en la generación térmica (295 MW).
+En la generación distribuida, están indisponibles
+ por avería 866 MW y en mantenimiento 212 MW.
+
+Para el pico se estima la entrada de 170 MW en motores de Generación Distribuida, 
+la entrada de la unidad 2 de Robustiano León con 14 MW, la entrada de 5 motores
+ de la Generacion Móvil de Melones con 90 MW, la entrada de la Generacion Móvil
+  de Santiago con 90 MW y la entrada de la unidad 6 de la CTE Rente con 60 MW.
+
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2835 MW 
+y una demanda máxima de 2800 MW, para una reserva de 35 MW, 
+por lo que se pronostica una afectación de 35MW en este horario de mantenerse 
+las condiciones previstas.

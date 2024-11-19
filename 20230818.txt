@@ -1,0 +1,27 @@
+En el día de ayer se afectó el servicio por déficit de capacidad de generación 
+a partir de las 19:54 horas, la afectación se restableció a las 00:52 horas de 
+la madrugada de hoy.
+
+La máxima afectación del día fue 193 MW, a las 22:40 horas.
+
+La disponibilidad del SEN a las 07:00 horas es de 2620 MW y la demanda 2380 MW, 
+con todo el sistema con servicio. Se estima que en el horario diurno no se 
+produzcan afectaciones al servicio por déficit de capacidad de generación.
+
+Se encuentra fuera de servicio por avería la unidad 2 de la CTE Santa Cruz, 
+la unidad 2 de la CTE Felton y la unidad 3 de la CTE Renté. Se encuentra en 
+mantenimiento la unidad 6 de la CTE Renté.
+
+Se mantienen las limitaciones en la generación térmica (355 MW).
+
+En la generación distribuida, están indisponibles por avería 977 MW 
+y en mantenimiento 164 MW.
+
+Para el horario pico se estima la entrada de 3 motores de la Generación Móvil 
+de Melones y Santiago con 45 MW, la recuperación de 10 MW en Puerto Escondido 
+y la entrada de 160 MW en motores de Generación Distribuida.
+
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2835 MW 
+y una demanda máxima de 2950 MW, para un déficit de 115 MW, por lo que de 
+mantenerse las condiciones previstas se pronostica una afectación de 185 MW 
+en este horario.

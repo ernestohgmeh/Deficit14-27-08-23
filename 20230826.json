@@ -1,0 +1,72 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "26-08-2023",
+            "dia": "Sabado",
+            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2023/08/26/union-electrica-pronostica-una-afectacion-de-276-mw-para-el-horario-pico-de-este-sabado/&ved=2ahUKEwjAxOnmwOKJAxVmfzABHem4KMwQFnoECBwQAQ&usg=AOvVaw0MO4FWpTMi69cA7oKw27hc"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "dia",
+            "disponibilidad": 2644,
+            "demanda_max": 2850,
+            "deficit": 206,
+            "pronostico": {
+                "afectacion": 276
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2410,
+                "demanda": 2280,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 341,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "CTE Guiteras",
+                        "CTE": "Guiteras"
+                    }
+                ],
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 234
+            }]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 276,
+            "hora": "",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": "18:32",
+            "hora_rest": "01:20"
+        }
+    }
+}

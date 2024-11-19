@@ -1,0 +1,72 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "27-08-2023",
+            "dia": "Domingo",
+            "url": "https://www.minem.gob.cu/es/noticias/situacion-del-sen/situacion-del-sen-para-el-27-de-agosto-de-2023"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "dia",
+            "disponibilidad": 3002,
+            "demanda_max": 2700,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 0
+            }
+        },
+        "info_horarios":{
+            "mañana": {
+                "disponibilidad": 2472,
+                "demanda": 2145,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas":{
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 457,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Antonio Maceo"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Guiteras"
+                    }
+                ],
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion":[ {
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 530
+            }]
+        },
+        "max_afect_dia":{
+            "cantidad_mw": "430",
+            "hora": "10:58 horas de la mañana hasta las 13:01 y desde las 16:03 sin poder restablecerse en la madrugada debido a la salida a las 02:50 horas ",
+            "desc": "salida del sistema de la CTE Guiteras"
+        },
+        "dia_anterior": {
+            "desc": "no hubo afectacion",
+            "horas": "",
+            "hora_rest": ""
+        }
+    }
+}

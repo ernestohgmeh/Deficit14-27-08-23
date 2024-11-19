@@ -1,0 +1,72 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "25-08-2023",
+            "dia": "Viernes",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/25/une-no-estima-afectacion-por-deficit-de-generacion/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2835,
+            "demanda_max": 2800,
+            "deficit": 35,
+            "pronostico": {
+                "afectacion":35
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2411,
+                "demanda": 2320,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 295,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    }
+                ],
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 424
+            }]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 215,
+            "hora": "18:32 horas hasta las 01:20 horas",
+            "desc": "se afectó el servicio eléctrico por déficit de capacidad de generación"
+        },
+        "dia_anterior": {
+            "desc": "no hubo afectacion",
+            "horas": "",
+            "hora_rest": ""
+        }
+    }
+}

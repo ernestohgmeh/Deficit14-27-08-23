@@ -1,0 +1,58 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "21-08-2023",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/21/une-estima-afectacion-de-76-megawatts-durante-el-pico-nocturno-de-este-lunes/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2974,
+            "demanda_max": 2980,
+            "deficit": 6,
+            "pronostico": {
+                "afectacion":76
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2650,
+                "demanda": 2270,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 571,
+            "fuera": {
+                "averias": "",
+                "mantenimiento":"",
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 2980
+            }]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 76,
+            "hora": "",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "no hubo afectacion",
+            "horas": "",
+            "hora_rest": ""
+        }
+    }
+}

@@ -1,0 +1,21 @@
+En el día de ayer se afectó el servicio eléctrico por déficit de capacidad de generación 
+desde las 18:32 horas hasta las 01:20 horas del día de hoy, la máxima afectación fue de 215 MW a las 20:20 horas.
+
+La disponibilidad del SEN a las 07:00 horas es de 2410 MW y la demanda 2280 MW, con todo el sistema
+con servicio. No se estima afectación al servicio eléctrico por déficit de capacidad de generación 
+en la media.
+
+Se encuentra fuera de servicio en avería la unidad 6 de la CTE Renté y la unidad 5 de la CTE Nuevitas.
+ Se encuentran en mantenimiento la CTE Guiteras.
+
+Se mantienen las limitaciones en la generación térmica (341 MW).
+
+En la generación distribuida, están indisponibles por avería 923 MW y en mantenimiento 210 MW.
+
+Para el pico se estima la entrada de 160 MW en motores de Generación Distribuida
+que están pasados de horas de mantenimiento y se autoriza su uso, la entrada de
+ la unidad 2 de Robustiano León con 14 MW, y la recuperación de 60 MW.
+
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2644 MW y una demanda máxima 
+de 2850 MW, para un déficit de 206 MW, por lo que se pronostica una afectación de 276 MW en 
+este horario de mantenerse las condiciones previstas.

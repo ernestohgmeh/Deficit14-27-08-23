@@ -1,0 +1,72 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "14-08-2023",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/14/une-pronostica-afectacion-de-135-mw-durante-pico-nocturno-de-este-lunes/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2935,
+            "demanda_max":3000,
+            "deficit": 65,
+            "pronostico": {
+                "afectacion":135 
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2680,
+                "demanda": 2440,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": "",
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Rente"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    }
+                ],
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 255
+            }]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 336,
+            "hora": "22:50",
+            "desc": "coincidente con la hora pico, superior a la planificada por la no entrada de la Unidad 6 de la CTE Nuevitas"
+        },
+        "dia_anterior": {
+            "desc": "no hubo afectacion",
+            "horas": "",
+            "hora_rest": ""
+        }
+    }
+}

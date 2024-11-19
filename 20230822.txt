@@ -1,0 +1,23 @@
+En el día de ayer no se afectó el servicio eléctrico por déficit 
+de capacidad de generación.
+
+La disponibilidad del SEN a las 07:00 horas es de 2600 MW y la demanda 2361 MW,
+ con todo el sistema con servicio. No se estima afectación al servicio eléctrico 
+ por déficit de capacidad de generación en la media.
+
+Se mantienen las limitaciones en la generación térmica (418 MW).
+
+En la generación distribuida, están indisponibles por avería 954 MW
+ y en mantenimiento 205 MW.
+
+Para el pico se estima La entrada de 162 MW en motores de
+ Generación Distribuida que están pasados de horas de mantenimiento 
+ y se autoriza su uso, la entrada de la unidad 2 de Robustiano León con 14 MW, 
+ la entrada de 2 motores de la Generacion Móvil de Melones (34 MW),
+  la entrada de la unidad 8 de la CTE Mariel con 60 MW 
+  y la recuperación de 40 MW en centrales de generación distribuida.
+
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2843 MW 
+y una demanda máxima de 2900 MW, para un déficit de 57 MW,
+ por lo que de mantenerse las condiciones previstas se pronostica una afectación
+  de 127 MW en este horario.

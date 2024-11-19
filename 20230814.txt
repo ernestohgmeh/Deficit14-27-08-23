@@ -1,0 +1,27 @@
+La Unión Eléctrica estima para la hora pico de este lunes una disponibilidad 
+de 2935 MW y una demanda máxima de 3000 MW, para un déficit de 65 MW, 
+por lo que de mantenerse las condiciones previstas se pronostica una 
+afectación de 135 MW en este horario.
+
+La disponibilidad del SEN a las 07:00 horas es de 2680 MW y la demanda 2440 MW, 
+con todo el sistema con servicio. Se estima que en el horario diurno no se 
+produzcan afectaciones al servicio por déficit de capacidad de generación.
+
+Se encuentra fuera de servicio por avería la unidad 2 de la CTE Felton. 
+Se encuentra en mantenimiento la unidad 5 de la CTE Mariel y la unidad 6 de la 
+CTE Renté.
+
+Se mantienen las limitaciones en la generación térmica (393 MW).
+
+En la generación distribuida, están indisponibles por avería 1054 MW 
+y en mantenimiento 240 MW.
+
+En la generación distribuida se tienen 3 centrales indisponibles por falta de 
+combustible (14 MW) y 6 motores en la Generacion Móvil de Melones (90 MW). 
+Con bajas coberturas se encuentran 22 centrales de generación distribuida (181 MW).
+
+Para el horario pico se estima la entrada de 6 motores en la Generación Móvil de 
+Melones con 90 MW y la entrada de 165 MW en motores de Generación Distribuida.
+
+En el día de ayer no se afectó el servicio por déficit de capacidad de generación.
+

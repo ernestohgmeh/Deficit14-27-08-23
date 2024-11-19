@@ -1,0 +1,79 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "20-08-2023",
+            "dia": "Domingo",
+            "url": "http://www.cubadebate.cu/noticias/2024/08/20/une-pronostica-deficit-de-870-mw-en-pico-nocturno/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2280,
+            "demanda_max": 3150,
+            "deficit": 870,
+            "pronostico": {
+                "afectacion":940
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2270,
+                "demanda": 2320,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 120
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": "",
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Carlos M. de Cespedes"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":"",
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 20
+            }]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 400,
+            "hora": "",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": "90:10",
+            "hora_rest": "no se pudo cerrar la afectacion"
+        }
+    }
+}

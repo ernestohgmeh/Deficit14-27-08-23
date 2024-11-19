@@ -1,0 +1,58 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "22-08-2023",
+            "dia": "Martes",
+            "url": "https://www.minem.gob.cu/es/noticias/situacion-del-sen/situacion-del-sen-para-el-22-de-agosto-de-2023"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2843,
+            "demanda_max": 2900,
+            "deficit": 57,
+            "pronostico": {
+                "afectacion":127
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2600,
+                "demanda": 2361,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 418,
+            "fuera": {
+                "averias": [],
+                "mantenimiento":[],
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 310
+            }]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 57,
+            "hora": "",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "no hubo afectacion al servicio",
+            "horas": "",
+            "hora_rest": ""
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "15-08-2023",
+            "dia": "Martes",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/15/une-preve-jornada-diurna-sin-afectacion-por-deficit-y-afectacion-de-213-mw-en-pico-este-martes/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "noche",
+            "disponibilidad": 2857,
+            "demanda_max":3000,
+            "deficit": 143,
+            "pronostico": {
+                "afectacion":213
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2664,
+                "demanda": 2400,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term":376,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Rente"
+                    }
+                ],
+                "no_servicio": ""
+            }
+        },
+        "pico": {
+            "estimacion": [{
+                "desc": "entrada de motores de generacion distribuida",
+                "razon": "se encuentran fuera por combustible",
+                "cantidad_mw": 193
+            }]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 143,
+            "hora": "",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion",
+            "horas": "19:45",
+            "hora_rest": "01:39"
+        }
+    }
+}

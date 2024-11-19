@@ -1,0 +1,25 @@
+En el día de ayer lunes 19 de agosto se afectó el servicio por déficit
+de capacidad de generación desde las 09:10 horas y no se pudo cerrar la afectación.
+
+La máxima afectación en el día fue 558 MW a las 20:40 horas,
+coincidente con la hora pico.
+
+La disponibilidad del Sistema Eléctrico Nacional para este 20 de agosto
+a las 07:00 horas es de 2270 MW, la demanda 2320 MW con una afectación de 120 MW
+se estima en el horario de la media una máxima afectación de 400 MW por déficit
+de capacidad de generación.
+
+Se encuentran fuera por avería las unidades 1 y 2 de la CTE Santa Cruz
+la unidad 4 de la CTE Carlos Manuel de Céspedes y las unidades 1 y 2 de la
+CTE Felton.
+
+Las limitaciones en la generación térmica son de 398 MW.
+
+Se encuentran fuera de servicio por combustible 44 centrales de 
+generación distribuida, para un total de 202 MW afectados por este concepto.
+
+Para el pico se estima la entrada de la unidad de Puerto Escondido con 20 MW.
+
+Con este pronóstico, se estima una disponibilidad de 2280 MW y una demanda máxima
+ de 3150 MW, para un déficit de 870 MW, por lo que de mantenerse las condiciones
+  previstas se pronostica una afectación de 940 MW en este horario.

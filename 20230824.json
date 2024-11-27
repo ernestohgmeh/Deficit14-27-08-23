@@ -1,68 +1,44 @@
 {
-    "sen_info": {
-        "main_info": {
-            "_comentario": "Las fechas deben expresarse con guiones",
-            "fecha": "24-08-2023",
-            "dia": "Jueves",
-            "url": "http://www.cubadebate.cu/noticias/2023/08/24/union-electrica-estima-afectacion-de-80-mw-durante-el-pico-nocturno-de-este-jueves/"
-        },
-        "_comentario": "Toda esta informacion se expresa en MW",
-        "estimacion": {
-            "horario": "noche",
-            "disponibilidad": 2790,
-            "demanda_max": 2800,
-            "deficit": 10,
-            "pronostico": {
-                "afectacion":80 
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2750,
-                "demanda": 2270,
-                "totalidad": true
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": 20230824,
+    "url": "http://www.cubadebate.cu/noticias/2023/08/24/union-electrica-estima-afectacion-de-80-mw-durante-el-pico-nocturno-de-este-jueves/", 
+    "prediction": {
+        "availability": 2790,  
+        "demand_max": 2800,
+        "impact": 80,
+        "deficit": 10,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": 700, 
+        "availability": 2750, 
+        "demand": 2270, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "broken": 
+            {
+                
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 80
-                }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 430,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 6",
-                        "CTE": "Rente"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "CTE Guiteras",
-                        "CTE": "Guiteras"
-                    }
-                ],
-                "no_servicio": ""
-            }
-        },
-        "pico": {
-            "estimacion": [{
-                "desc": "entrada de motores de generacion distribuida",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 224
-            }]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 80,
-            "hora": "en el horario nocturno",
-            "desc": " superior a la planificada "
-        },
-        "dia_anterior": {
-            "desc": "no hubo afectacion",
-            "horas": "",
-            "hora_rest": ""
-        }
+            "maintenance": 
+            {
+                "AM": ["6"],
+                "AG": ["1"]  
+            },
+            "limitation": 430
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "",
+        "total_impact": 1053,
+        "combustible_problem": "",
+        "ships_with_problems": "",
+        "motors_impact": ""
+    },
+    "impact": {
+        "total_hours": "",
+        "max": "",
+        "max_hour": ""
     }
 }

@@ -1,79 +1,45 @@
 {
-    "sen_info": {
-        "main_info": {
-            "_comentario": "Las fechas deben expresarse con guiones",
-            "fecha": "20-08-2023",
-            "dia": "Domingo",
-            "url": "http://www.cubadebate.cu/noticias/2024/08/20/une-pronostica-deficit-de-870-mw-en-pico-nocturno/"
-        },
-        "_comentario": "Toda esta informacion se expresa en MW",
-        "estimacion": {
-            "horario": "noche",
-            "disponibilidad": 2280,
-            "demanda_max": 3150,
-            "deficit": 870,
-            "pronostico": {
-                "afectacion":940
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2270,
-                "demanda": 2320,
-                "totalidad": false
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": 20230820,
+    "url": "http://www.cubadebate.cu/noticias/2024/08/20/une-pronostica-deficit-de-870-mw-en-pico-nocturno/", 
+    "prediction": {
+        "availability": 2280,  
+        "demand_max": 3150,
+        "impact": 940,
+        "deficit": 870,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": 700, 
+        "availability": 2270, 
+        "demand": 2320, 
+        "deficit": 120
+    }, 
+    "plants": [
+        {
+            "broken": 
+            {
+                "EG": ["1","2"],
+                "CM": ["4"],
+                "LR": ["1","2"]
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 120
-                }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": "",
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 4",
-                        "CTE": "Carlos M. de Cespedes"
-                    },
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "Felton"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento":"",
-                "no_servicio": ""
-            }
-        },
-        "pico": {
-            "estimacion": [{
-                "desc": "entrada de motores de generacion distribuida",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 20
-            }]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 400,
-            "hora": "",
-            "desc": "coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "se afecto el servicio por deficit de capacidad de generacion",
-            "horas": "90:10",
-            "hora_rest": "no se pudo cerrar la afectacion"
-        }
+            "maintenance": 
+            {
+                
+            },
+            "limitation": 398
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "",
+        "total_impact": "",
+        "combustible_problem": 202,
+        "ships_with_problems": "",
+        "motors_impact": ""
+    },
+    "impact": {
+        "total_hours": "",
+        "max": "",
+        "max_hour": ""
     }
 }

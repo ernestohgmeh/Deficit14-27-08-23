@@ -1,58 +1,43 @@
 {
-    "sen_info": {
-        "main_info": {
-            "_comentario": "Las fechas deben expresarse con guiones",
-            "fecha": "22-08-2023",
-            "dia": "Martes",
-            "url": "https://www.minem.gob.cu/es/noticias/situacion-del-sen/situacion-del-sen-para-el-22-de-agosto-de-2023"
-        },
-        "_comentario": "Toda esta informacion se expresa en MW",
-        "estimacion": {
-            "horario": "noche",
-            "disponibilidad": 2843,
-            "demanda_max": 2900,
-            "deficit": 57,
-            "pronostico": {
-                "afectacion":127
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2600,
-                "demanda": 2361,
-                "totalidad": true
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "",
+    "url": "https://www.minem.gob.cu/es/noticias/situacion-del-sen/situacion-del-sen-para-el-22-de-agosto-de-2023", 
+    "prediction": {
+        "availability": 2843,  
+        "demand_max": 2900,
+        "impact": 127,
+        "deficit": 57,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": 700, 
+        "availability": 2600, 
+        "demand": 2361, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "broken": 
+            {
+
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
-                }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 418,
-            "fuera": {
-                "averias": [],
-                "mantenimiento":[],
-                "no_servicio": ""
-            }
-        },
-        "pico": {
-            "estimacion": [{
-                "desc": "entrada de motores de generacion distribuida",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 310
-            }]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 57,
-            "hora": "",
-            "desc": "coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "no hubo afectacion al servicio",
-            "horas": "",
-            "hora_rest": ""
-        }
+            "maintenance": 
+            {
+                
+            },
+            "limitation": 418
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "",
+        "total_impact": 1159,
+        "combustible_problem": "",
+        "ships_with_problems": "",
+        "motors_impact": ""
+    },
+    "impact": {
+        "total_hours": "",
+        "max": "",
+        "max_hour": ""
     }
 }

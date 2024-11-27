@@ -1,72 +1,44 @@
 {
-    "sen_info": {
-        "main_info": {
-            "_comentario": "Las fechas deben expresarse con guiones",
-            "fecha": "19-08-2023",
-            "dia": "Sabado",
-            "url": "http://www.cubadebate.cu/noticias/2023/08/19/une-estima-afectacion-de-153-megawatts-durante-el-pico-nocturno-de-este-sabado/"
-        },
-        "_comentario": "Toda esta informacion se expresa en MW",
-        "estimacion": {
-            "horario": "noche",
-            "disponibilidad": 2767,
-            "demanda_max": 2850,
-            "deficit": 83,
-            "pronostico": {
-                "afectacion":153 
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2570,
-                "demanda": 2350,
-                "totalidad": true
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": 20230819,
+    "url": "http://www.cubadebate.cu/noticias/2023/08/19/une-estima-afectacion-de-153-megawatts-durante-el-pico-nocturno-de-este-sabado/", 
+    "prediction": {
+        "availability": 2767,  
+        "demand_max": 2850,
+        "impact": 153,
+        "deficit": 83,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": 700, 
+        "availability": 2570, 
+        "demand": 2350, 
+        "deficit": 0
+    }, 
+    "plants": [
+        {
+            "broken": 
+            {
+                "EG": ["2"],
+                "LR": ["2"]
             },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
-                }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term":444,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento":[
-                    {
-                        "nombre": "Unidad 6",
-                        "CTE": "Rente"
-                    }
-                ],
-                "no_servicio": ""
-            }
-        },
-        "pico": {
-            "estimacion": [{
-                "desc": "entrada de motores de generacion distribuida",
-                "razon": "se encuentran fuera por combustible",
-                "cantidad_mw": 297
-            }]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 558,
-            "hora": "09:10",
-            "desc": "superior a la planificada"
-        },
-        "dia_anterior": {
-            "desc": "no hubo afectacion",
-            "horas": "",
-            "hora_rest": ""
-        }
+            "maintenance": 
+            {
+              "AM": ["6"]  
+            },
+            "limitation": 444
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "",
+        "total_impact": 1092,
+        "combustible_problem": "",
+        "ships_with_problems": "",
+        "motors_impact": ""
+    },
+    "impact": {
+        "total_hours": "",
+        "max": 558,
+        "max_hour": 2040
     }
 }
